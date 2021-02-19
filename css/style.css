@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.header{
+  background: white;
+  height: 50px;
+}
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+.header-wrap h3{
+  font-style: bold;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+.header-nav li{
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+#eyecatch{
+    background: url(../img/mv.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#eyecatch h3{
+    font-style: bold;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#eyecatch p{
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#concept{
+    background: black;
+    height: 300px;
+    position: relative;
+}
+
+#concept h3{
+    font-style: bold;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#concept p{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 900px;
+}
+
+#service{
+    height:auto;
+    width: auto;
+}
+
+.service-wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#service h3{
+    font-style: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.one {
+    width: 40%;
+    height: 40%;
+}
+
+.two{
+    width: 40%;
+    height: 40%;
+}
+.three{
+    width: 40%;
+    height: 40%;
+}
+.four{
+    width: 40%;
+    height: 40%;
+}
+
+.service-link{
+  padding: 10px 30px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 1px red solid;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  width: 150px;  
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+#news{
+    background: black;
+    height: 450px;
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#news h3{
+    font-style: bold;
+    color: white;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 8%;
+    position: relative;
+}
+
+.news-link{
+  padding: 10px 30px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 1px red solid;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  width: 150px;  
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.title-1{
+    width: 80%;
+    background: white;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.title-1 {
+    color: black;
+    text-align: left;
+    line-height: 40px;
+}
+
+.title-2{
+    width: 80%;
+    background: white;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.title-2 p{
+    color: black;
+    text-align: left;
+    line-height: 40px;
+}
+.title-3{
+    width: 80%;
+    background: white;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.title-3 p{
+    color: black;
+    text-align: left;
+    line-height: 40px;
+}
+
+#blog{
+    height: 750px;
+    display: flex;
+}
+
+.blog-link{
+    padding: 10px 30px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 1px red solid;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  width: 150px;  
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
