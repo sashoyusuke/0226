@@ -127,7 +127,10 @@ input, select {
     font-size: 15px;
     margin-right: 20px;
 }
-
+.header-nav a {
+    text-decoration: none;
+    color: black;
+}
 #eyecatch{
     background: url(../img/mv.png) no-repeat;
     background-size: cover;
@@ -180,7 +183,7 @@ input, select {
 
 #service{
     height:auto;
-    width: auto;
+    width: 500px;
 }
 
 .service-wrap{
@@ -195,14 +198,16 @@ input, select {
 }
 
 
-.one {
-    width: 40%;
-    height: 40%;
+.one img{
+    width: 200%;
+    height: 80%;
 }
-
+.one{
+    margin-left: 40%;
+}
 .two{
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
 }
 .three{
     width: 40%;
@@ -301,12 +306,43 @@ input, select {
 }
 
 #blog{
-    height: 750px;
+    height: 350px;
+    margin-top: 50%;
+}
+
+#blog .blog-wrap{
     display: flex;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+#blog h3{
+    text-align: center;
+    font-size: 25px;
+}
+.blog-one img{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.blog-one{
+    margin-left: 20%;
+}
+.blog-two img{ 
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;    
+}
+.blog-three img{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
 }
 
 .blog-link{
-    padding: 10px 30px;
+  padding: 10px 30px;
   font-size: 14px;
   background: red;
   color: white;
@@ -320,3 +356,95 @@ input, select {
   text-align: center;
 }
 
+#company-recruit{
+    height: 400px;
+    margin-top: 10%;
+}
+
+.company-recruit-wrap{
+    display: flex;
+}
+
+#company-recruit .company{
+    height: 60%;
+    width: 50%;
+    background: red;
+    color:white;
+    text-align: center;
+    padding: 8% 8%;
+    text-decoration: none;
+}
+
+#company-recruit .recruit{
+    height: 60%;
+    width: 50%;
+    background:black;
+    color:white;
+    text-align: center;
+    padding: 8% 8%;
+    text-decoration: none;
+}
+.company-recruit-link{
+  padding: 10px 30px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 1px red solid;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  width: 150px;  
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#contact{
+    background: #F8F8FF;
+    text-align: center;
+    height: 300px;
+}
+
+#contact h3{
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#contact .contact-link{
+    padding: 10px 30px;
+  font-size: 14px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border: 1px red solid;
+  border-radius: 1px;
+  transition: 0.4s ease;
+  width: 150px;  
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.footer{
+    background: black;
+    height:70px;
+    
+}
+.footer-nav-list{
+    display: flex;
+    margin-left: 60%;
+}
+
+.footer-nav-list li{
+    margin-right: 1%;
+}
+.footer-nav-list a{
+    color: white;
+}
+.copyright{
+    color: white;
+
+}
