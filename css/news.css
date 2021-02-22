@@ -113,7 +113,10 @@ input, select {
   font-size: 25px;
   margin-left: 20px;
 }
-
+.header-wrap a{
+    text-decoration: none;
+    color: black;
+}
 .header-nav ul{
   display: flex;
 }
@@ -152,6 +155,10 @@ input, select {
     margin: auto;
     margin-top: 5%;
 }    
+.news-box-1 a{
+    text-decoration: none;
+    color: black;
+}
 
 .news-box-2 p{
     color: black;
@@ -161,7 +168,10 @@ input, select {
     margin: auto;
     margin-top: 1%;
 }    
-
+.news-box-2 a{
+    text-decoration: none;
+    color: black;
+}
 .news-box-3 p{
     color: black;
     border: 1px black solid;
@@ -170,6 +180,10 @@ input, select {
     margin: auto;
     margin-top: 1%;
 }    
+.news-box-3 a{
+    text-decoration: none;
+    color: black;
+}
 #contact{
     background: #F8F8FF;
     text-align: center;
@@ -200,6 +214,7 @@ input, select {
 .footer{
     background: black;
     height:70px;
+    margin-bottom: 0%;
     
 }
 .footer-nav-list{
@@ -209,11 +224,21 @@ input, select {
 
 .footer-nav-list li{
     margin-right: 1%;
+    font-size: 12px;
+    margin-top: 4%;
 }
+.footer-nav-list a{
+    text-decoration: none;
+}
+.footer-nav-list li+li{
+    border-left: 1px solid white;
+    padding: 0 10px 0 10px;
+}
+    
 .footer-nav-list a{
     color: white;
 }
 .copyright{
     color: white;
-
+    line-height: 5px;
 }

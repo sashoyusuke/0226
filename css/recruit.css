@@ -113,7 +113,10 @@ input, select {
   font-size: 25px;
   margin-left: 20px;
 }
-
+.header-wrap a{
+    text-decoration: none;
+    color: black;
+}
 .header-nav ul{
   display: flex;
 }
@@ -134,20 +137,28 @@ input, select {
 
 #recruit h3{
     color: white;
-    font-size: 30px;
     text-align: center;
     line-height: 300px;
+    font-size: 25px;
 }
 
 
 .recruit-one{
   width: 70%;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 1%;
   }
+#recruit-one hr{
+    width: 80%;
+    margin-left: 10%;
+}
   #recruit-one h3{
     margin-top: 1%;
     font-size: 30px;
+    margin-left: 10%;
+  }
+  #recruit-one p{
+      margin-left: 10%;
   }
  .recruit-one th,tr{
    border: 1px black solid;
@@ -159,8 +170,15 @@ input, select {
 #recruit-two h3{
   margin-top: 1%;
   font-size: 30px;
+  margin-left: 10%;
 }
-
+#recruit-two hr{
+    width: 80%;
+    margin-left: 10%;
+}
+#recruit-two p{
+    margin-left: 10%;
+}
 #contact{
     background: #F8F8FF;
     text-align: center;
@@ -192,6 +210,7 @@ input, select {
 .footer{
     background: black;
     height:70px;
+    margin-bottom: 0%;
     
 }
 .footer-nav-list{
@@ -201,11 +220,21 @@ input, select {
 
 .footer-nav-list li{
     margin-right: 1%;
+    font-size: 12px;
+    margin-top: 4%;
 }
+.footer-nav-list a{
+    text-decoration: none;
+}
+.footer-nav-list li+li{
+    border-left: 1px solid white;
+    padding: 0 10px 0 10px;
+}
+    
 .footer-nav-list a{
     color: white;
 }
 .copyright{
     color: white;
-
+    line-height: 5px;
 }
