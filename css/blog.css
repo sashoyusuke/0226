@@ -125,47 +125,42 @@ input, select {
     text-decoration: none;
     color: black;
 }
-#content{
+#blog{
   background: black url(../img/mv.png) no-repeat;
   background-position: center center;
   height: 300px;
   background-size: 100% 100%;
 }
-
-#content h3{
+#blog h3{
     color: white;
     font-size: 30px;
     text-align: center;
     line-height: 300px;
 }
-#section{
-    height: auto;
-    width: 80%;
-}
-.section-wrap-1{
-    display: flex;
-}
-
-.img{
-    margin-left: 10%;
-    
-}
-.img img{
-    height: 150px;
+.blog-wrap {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text{
-    margin-left: 20px;
+.blog-cat img {
+  width: 300px;
+  height: auto;
+  
 }
-.text h3{
-    font-size: 25px;
-    padding-bottom: 5px;
-}
-.line-1{
-    width:90%;
-    margin-left: auto;
-}
-#contact{
+.blog-cat {
+  width: 28%;
+  padding: 20px 15px 30px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  margin:auto;
+  }
+  #contact{
     background: #F8F8FF;
     text-align: center;
     height: 300px;

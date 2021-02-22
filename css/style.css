@@ -182,42 +182,26 @@ input, select {
 }
 
 #service{
+    width: 600px;
     height:auto;
-    width: 500px;
+    display: flex;
 }
 
-.service-wrap{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 #service h3{
     font-style: bold;
     font-size: 35px;
     text-align: center;
 }
 
-
-.one img{
-    width: 200%;
-    height: 80%;
+.img img{
+    width:550px;
+    height: 300px;
 }
-.one{
-    margin-left: 40%;
+.service-wrap-1{
+    width: 400px;
+    height: auto;
+    margin-left: 20%;
 }
-.two{
-    width: 50%;
-    height: 50%;
-}
-.three{
-    width: 40%;
-    height: 40%;
-}
-.four{
-    width: 40%;
-    height: 40%;
-}
-
 .service-link{
   padding: 10px 30px;
   font-size: 14px;

@@ -125,46 +125,42 @@ input, select {
     text-decoration: none;
     color: black;
 }
-#content{
+#recruit{
   background: black url(../img/mv.png) no-repeat;
   background-position: center center;
   height: 300px;
   background-size: 100% 100%;
 }
 
-#content h3{
+#recruit h3{
     color: white;
     font-size: 30px;
     text-align: center;
     line-height: 300px;
 }
-#section{
-    height: auto;
-    width: 80%;
-}
-.section-wrap-1{
-    display: flex;
+
+
+.recruit-one{
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 1%;
+  }
+  #recruit-one h3{
+    margin-top: 1%;
+    font-size: 30px;
+  }
+ .recruit-one th,tr{
+   border: 1px black solid;
+   padding: 20px;
+ } 
+ .recruit-one th{
+   background: #f3f3f3;
+ }
+#recruit-two h3{
+  margin-top: 1%;
+  font-size: 30px;
 }
 
-.img{
-    margin-left: 10%;
-    
-}
-.img img{
-    height: 150px;
-}
-
-.text{
-    margin-left: 20px;
-}
-.text h3{
-    font-size: 25px;
-    padding-bottom: 5px;
-}
-.line-1{
-    width:90%;
-    margin-left: auto;
-}
 #contact{
     background: #F8F8FF;
     text-align: center;
@@ -192,6 +188,7 @@ input, select {
   text-align: center;
   margin-top: 5%;
 }
+
 .footer{
     background: black;
     height:70px;

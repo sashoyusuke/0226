@@ -125,6 +125,7 @@ input, select {
     text-decoration: none;
     color: black;
 }
+
 #content{
   background: black url(../img/mv.png) no-repeat;
   background-position: center center;
@@ -138,33 +139,37 @@ input, select {
     text-align: center;
     line-height: 300px;
 }
-#section{
-    height: auto;
-    width: 80%;
-}
-.section-wrap-1{
-    display: flex;
-}
 
-.img{
-    margin-left: 10%;
-    
-}
-.img img{
-    height: 150px;
-}
+#service-news{
+    background: white;
+    height: 400px;
+    }
+.news-box-1 p{
+    color: black;
+    border: 1px black solid;
+    padding: 2% 2%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}    
 
-.text{
-    margin-left: 20px;
-}
-.text h3{
-    font-size: 25px;
-    padding-bottom: 5px;
-}
-.line-1{
-    width:90%;
-    margin-left: auto;
-}
+.news-box-2 p{
+    color: black;
+    border: 1px black solid;
+    padding: 2% 2%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+}    
+
+.news-box-3 p{
+    color: black;
+    border: 1px black solid;
+    padding: 2% 2%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+}    
 #contact{
     background: #F8F8FF;
     text-align: center;
