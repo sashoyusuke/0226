@@ -274,12 +274,19 @@ align-items: center;
 }
 .footer{
     text-align: center;
+    
+    height: 250px;
+    position: relative;
+    width: 100%;
     }
  .footer-nav-list{
    display: block;
    background: black;
    margin: initial;
-   
+   position: absolute;
+   left: 40%;
+   top: 25%;
+   list-style: none;
 }
 .footer-nav-list li{
     text-align:center;
@@ -293,9 +300,11 @@ align-items: center;
 .copyright{
     color:white;
     background: black;
-    margin-left:30%;
-    height: auto;
-    padding-top:3%;
+    margin:0 auto;
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    
 }
 
 .blog-wrap{
@@ -303,9 +312,15 @@ align-items: center;
     align-items: initial;
     margin-left: initial;
   margin-right: initial;
-  margin-left: 5%;
+  margin: 0 auto;
 }
+.blog-cat{
+    margin: 0 auto;
+}
+.blog-cat img{
+    width: 100%;
 
+}
 #contact p{
     width: 80%;
     margin-left: 10%;
@@ -314,6 +329,6 @@ align-items: center;
     margin: o auto;
 }
 .blog-cat h5{
-    width: 150%;
+    width: 100%;
 }
 }

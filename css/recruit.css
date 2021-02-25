@@ -208,40 +208,39 @@ input, select {
 }
 
 .footer{
-    background: black;
-    height: 50px;
-    display: flex;
-align-items: center;
+    text-align: center;
+    
+    height: 250px;
+    position: relative;
+    width: 100%;
+    }
+ .footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+   position: absolute;
+   left: 40%;
+   top: 25%;
+   list-style: none;
 }
-.footer-nav-list{
-    display: flex;
-    margin-left: 50%;
-}
-
 .footer-nav-list li{
-    margin-right: 0%;
-    font-size: 3px;
-    margin-top: 2%;
-    width: 50px;
-   
-}
-
-.footer-nav-list a{
-    text-decoration: none;
+    text-align:center;
+    padding:5px 5px;
 }
 .footer-nav-list li+li{
-    border-left: 1px solid white;
-    padding:0 3px 0;
-}
-    
-.footer-nav-list a{
-    color: white;
+    border-left: initial;
+    text-align:center;
+    padding-bottom: 10px;
 }
 .copyright{
-    color: white;
-    display: block;
+    color:white;
+    background: black;
+    margin:0 auto;
+    position:absolute;
+    top: 15%;
+    left: 30%;
     
-    }
+}
 
 @media screen and (max-width: 768px){
 .footer{

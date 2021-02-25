@@ -190,21 +190,18 @@ border-top: 1px solid black;
 }
 .footer{
     background: black;
-    height: 50px;
-    display: flex;
-align-items: center;
+    height: auto;
 }
 .footer-nav-list{
     display: flex;
-    margin-left: 50%;
+    margin-left: 60%;
+    background: red;
 }
 
 .footer-nav-list li{
-    margin-right: 0%;
-    font-size: 3px;
+    margin-right: 1%;
+    font-size: 12px;
     margin-top: 2%;
-    width: 50px;
-   
 }
 
 .footer-nav-list a{
@@ -212,7 +209,7 @@ align-items: center;
 }
 .footer-nav-list li+li{
     border-left: 1px solid white;
-    padding:0 3px 0;
+    padding:0 5px 0;
 }
     
 .footer-nav-list a{
@@ -221,12 +218,47 @@ align-items: center;
 .copyright{
     color: white;
     display: block;
-    
+    background: blue;
+    width: 40%;
+    height: 50px;
     }
-
 @media screen and (max-width: 768px) {
    /* この中にcssを記述 */
-   #hamburger {
+   .footer{
+    text-align: center;
+    
+    height: 250px;
+    position: relative;
+    width: 100%;
+    }
+ .footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+   position: absolute;
+   left: 40%;
+   top: 25%;
+   list-style: none;
+}
+.footer-nav-list li{
+    text-align:center;
+    padding:5px 5px;
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    text-align:center;
+    padding-bottom: 10px;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin:0 auto;
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    
+}
+#hamburger {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -243,7 +275,7 @@ align-items: center;
   display: block;
   width: 35px;
   height: 2px;
-  background-color: black;
+  background-color:black;
   transition: 0.8s;
 }
 
@@ -258,40 +290,7 @@ align-items: center;
 #hamburger span:nth-of-type(3) {
   top: 30px; /* ハンバーガーメニューの3本目の棒 */
 }
-
 .header-nav {
   display: none; /* デスクトップのナビを消す */
-}
-.footer{
-    text-align: center;
-    }
- .footer-nav-list{
-   display: block;
-   background: black;
-   margin: initial;
-   
-}
-.footer-nav-list li{
-    text-align:center;
-    padding:5px 5px;
-}
-.footer-nav-list li+li{
-    border-left: initial;
-    text-align:center;
-    padding-bottom: 10px;
-}
-.copyright{
-    color:white;
-    background: black;
-    margin-left:30%;
-    height: auto;
-    padding-top:3%;
-}
-
-#contact{
-    height: auto;
-}
-#company{
-    margin-bottom: 15%;
 }
 }
