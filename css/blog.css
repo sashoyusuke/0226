@@ -192,18 +192,21 @@ input, select {
 }
 .footer{
     background: black;
-    height: auto;
+    height: 50px;
+    display: flex;
+align-items: center;
 }
 .footer-nav-list{
     display: flex;
-    margin-left: 60%;
-    background: red;
+    margin-left: 50%;
 }
 
 .footer-nav-list li{
-    margin-right: 1%;
-    font-size: 12px;
+    margin-right: 0%;
+    font-size: 3px;
     margin-top: 2%;
+    width: 50px;
+   
 }
 
 .footer-nav-list a{
@@ -211,7 +214,7 @@ input, select {
 }
 .footer-nav-list li+li{
     border-left: 1px solid white;
-    padding:0 5px 0;
+    padding:0 3px 0;
 }
     
 .footer-nav-list a{
@@ -220,9 +223,7 @@ input, select {
 .copyright{
     color: white;
     display: block;
-    background: blue;
-    width: 40%;
-    height: 50px;
+    
     }
 
 @media screen and (max-width: 768px) {
