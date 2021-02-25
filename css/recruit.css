@@ -238,3 +238,86 @@ input, select {
     color: white;
     line-height: 5px;
 }
+@media screen and (max-width: 768px){
+    .footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+}
+.footer-nav-list li{
+    margin-left: 40%;
+
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    margin-left: 37%;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin-left:30%;
+    
+}
+#hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color:black;
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px; /* ハンバーガーメニューの1本目の棒 */
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; /* ハンバーガーメニューの2本目の棒 */
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px; /* ハンバーガーメニューの3本目の棒 */
+}
+
+.header-nav {
+  display: none; /* デスクトップのナビを消す */
+}
+#recruit-two{
+  margin-top: 20%;
+}
+#recruit-one hr{
+    width: 80%;
+    margin-left: 10%;
+}
+#recruit-one h3{
+  margin-top: 10%;
+}
+  #recruit-one p{
+      width: 80%;
+  }
+  #recruit-two p{
+      width: 80%;
+  }
+  #contact{
+    height: auto;
+  }
+  #contact p{
+    width: 80%;
+    margin-left: 10%;
+}
+.recruit-one td{
+  text-align: center;
+}
+}

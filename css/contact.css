@@ -202,3 +202,97 @@ textarea {
     color: white;
     line-height: 5px;
 }
+@media screen and (max-width: 768px) {
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color:black;
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px; /* ハンバーガーメニューの1本目の棒 */
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; /* ハンバーガーメニューの2本目の棒 */
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px; /* ハンバーガーメニューの3本目の棒 */
+}
+
+.header-nav {
+  display: none; /* デスクトップのナビを消す */
+}
+.service-contents-wrap{
+    flex-wrap: wrap;
+    width: 80%;
+   margin-left:0; 
+}
+.service-wrap-1{
+    width: 55%;
+    margin-left: 0;
+}
+#service h3{
+    margin-left:13%;
+}
+
+#service .news-link{
+    margin-left: 10%;
+}
+#company-recruit .company{
+height: 100px;
+}
+#company-recruit .company p{
+    margin-top: 25%;
+    font-style: bold;
+    font-size: 20px;
+}
+#company-recruit .recruit{
+height: 100px;
+}
+#company-recruit .recruit p{
+    margin-top: 25%;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+}
+.footer-nav-list li{
+    margin-left: 40%;
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    margin-left: 37%;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin-left:30%;
+    
+}
+.button{
+  margin-left:2%;
+  width: 80%;
+  margin-bottom: 30%;
+}
+}

@@ -549,15 +549,107 @@ height: 100px;
     font-style: bold;
     font-size: 20px;
 }
-.footer{
-    height: 100px;
-    background: red;
-    flex-wrap:wrap;
-    width: 380px;
-}
+
 .footer-nav-list{
-margin-left: 0%;
+   display: block;
+   background: black;
+   margin: initial;
 }
+.footer-nav-list li{
+    margin-left: 40%;
 
-
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    margin-left: 37%;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin-left:30%;
+    
+}
+#eyecatch {
+ margin-top: 0%;
+}
+#eyecatch p{
+margin-top: 20%;
+}
+#concept p{
+    margin-top: 15%;
+    margin-left: 5%;
+    line-height: 25px;
+    width: 90%;
+   position: initial;
+}
+#concept{
+    height:400px;
+    position: initial;
+}
+#concept h3{
+    padding-top: 15%;
+    position: initial;
+    font-size: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+.service-contents-wrap{
+    width: initial;
+    width: 60%;
+    margin: initial;
+    margin-left: 5%;
+}
+#news .news-link{
+    width:initial;
+    width: 35%;
+    padding: initial;
+    padding: 5px 5px 5px;
+   margin-right: 20%;
+   display: inline-block;
+   margin-bottom: 5%;
+}
+#news h3{
+    
+    width: 30%;;
+    display: inline-block;
+}
+#news{
+    position: initial;
+    height: auto;
+    height: 300px;
+}
+#blog .blog-wrap{
+    display:block;
+}
+#blog{
+    height: auto;
+}
+.blog-two{
+    margin-left: 20%;
+}
+.blog-three{
+    margin-left: 20%;
+}
+#blog{
+    margin: initial;
+    margin-top:10%;
+}
+#company-recruit{
+    height: initial;
+    height: auto;
+}
+#contact{
+    height: initial;
+    height: auto;
+}
+.service-wrap-1 p{
+    line-height: 20px;
+}
+#blog h5{
+    width:80%;
+}
+#contact p{
+    width: 80%;
+    margin-left: 10%;
+}
 }

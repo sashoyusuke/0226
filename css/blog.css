@@ -267,4 +267,37 @@ input, select {
 .header-nav {
   display: none; /* デスクトップのナビを消す */
 }
+.footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+}
+.footer-nav-list li{
+    margin-left: 40%;
+
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    margin-left: 37%;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin-left:30%;
+    
+}
+.blog-wrap{
+    text-align:initial;
+    align-items: initial;
+    margin-left: initial;
+  margin-right: initial;
+  margin-left: 5%;
+}
+
+#contact p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
 }

@@ -257,4 +257,29 @@ border-top: 1px solid black;
 .header-nav {
   display: none; /* デスクトップのナビを消す */
 }
+.footer-nav-list{
+   display: block;
+   background: black;
+   margin: initial;
+}
+.footer-nav-list li{
+    margin-left: 40%;
+
+}
+.footer-nav-list li+li{
+    border-left: initial;
+    margin-left: 37%;
+}
+.copyright{
+    color:white;
+    background: black;
+    margin-left:30%;
+    
+}
+#contact{
+    height: auto;
+}
+#company{
+    margin-bottom: 15%;
+}
 }
