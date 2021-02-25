@@ -192,26 +192,26 @@ input, select {
 }
 .footer{
     background: black;
-    height:70px;
-    margin-bottom: 0%;
-    
+    height: auto;
 }
 .footer-nav-list{
     display: flex;
     margin-left: 60%;
+    background: red;
 }
 
 .footer-nav-list li{
     margin-right: 1%;
     font-size: 12px;
-    margin-top: 4%;
+    margin-top: 2%;
 }
+
 .footer-nav-list a{
     text-decoration: none;
 }
 .footer-nav-list li+li{
     border-left: 1px solid white;
-    padding: 0 10px 0 10px;
+    padding:0 5px 0;
 }
     
 .footer-nav-list a{
@@ -219,8 +219,12 @@ input, select {
 }
 .copyright{
     color: white;
-    line-height: 5px;
-}
+    display: block;
+    background: blue;
+    width: 40%;
+    height: 50px;
+    }
+
 @media screen and (max-width: 768px) {
    /* この中にcssを記述 */
    .blog-wrap{
@@ -267,25 +271,32 @@ input, select {
 .header-nav {
   display: none; /* デスクトップのナビを消す */
 }
-.footer-nav-list{
+.footer{
+    text-align: center;
+    }
+ .footer-nav-list{
    display: block;
    background: black;
    margin: initial;
+   
 }
 .footer-nav-list li{
-    margin-left: 40%;
-
+    text-align:center;
+    padding:5px 5px;
 }
 .footer-nav-list li+li{
     border-left: initial;
-    margin-left: 37%;
+    text-align:center;
+    padding-bottom: 10px;
 }
 .copyright{
     color:white;
     background: black;
     margin-left:30%;
-    
+    height: auto;
+    padding-top:3%;
 }
+
 .blog-wrap{
     text-align:initial;
     align-items: initial;
@@ -301,5 +312,7 @@ input, select {
 #blog{
     margin: o auto;
 }
-
+.blog-cat h5{
+    width: 150%;
+}
 }

@@ -186,7 +186,7 @@ input, select {
 }
 
 #service{
-    width: 1000px;
+    width: auto;
     height:auto;
     margin: 0 auto;
 }
@@ -194,7 +194,7 @@ input, select {
 #service h3{
     font-style: bold;
     font-size: 35px;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 1%;
 }
 .service-contents-wrap{
@@ -451,20 +451,18 @@ input, select {
 
 .footer{
     background: black;
-    
     height: auto;
-    
 }
 .footer-nav-list{
     display: flex;
     margin-left: 60%;
     background: red;
-    
 }
 
 .footer-nav-list li{
     margin-right: 1%;
     font-size: 12px;
+    margin-top: 2%;
 }
 
 .footer-nav-list a{
@@ -482,8 +480,9 @@ input, select {
     color: white;
     display: block;
     background: blue;
-    width: 30%;
-
+    width: 40%;
+    height: 50px;
+    
 }
 @media screen and (max-width: 768px) {
   #hamburger {
@@ -554,26 +553,30 @@ height: 100px;
     font-style: bold;
     font-size: 20px;
 }
-#footer{
+.footer{
     text-align: center;
-}
-.footer-nav-list{
+    }
+ .footer-nav-list{
    display: block;
    background: black;
    margin: initial;
+   
 }
 .footer-nav-list li{
-    margin-left: 40%;
+    text-align:center;
+    padding:5px 5px;
 }
 .footer-nav-list li+li{
     border-left: initial;
-    margin-left: 37%;
+    text-align:center;
+    padding-bottom: 10px;
 }
 .copyright{
     color:white;
     background: black;
     margin-left:30%;
-    
+    height: auto;
+    padding-top:3%;
 }
 #eyecatch {
  margin-top: 0%;
@@ -601,9 +604,14 @@ margin-top: 20%;
 }
 .service-contents-wrap{
     width: initial;
-    width: 60%;
+    width: 80%;
     margin: initial;
-    margin-left: 5%;
+    margin-left:30%;
+}
+#service h3{
+    margin:initial;
+    width: 100%;
+    text-align:center;
 }
 #news .news-link{
     width:initial;
